@@ -1,0 +1,42 @@
+.imgs{
+    width: 100% ;
+}
+
+.texto-destacado{
+    background: grey;
+}
+
+.texto-centralizado{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+.texto-vermelho{
+    color: red;
+}
+
+.fonte-12px{
+    text-align: center;
+    font-size: 12px;
+}
+
+em{
+    font-size: 18px;
+}
+
+.valores{
+    padding: 10px ;
+}
+
+.imagem-beneficios{
+    width: 30% ;
+}
+
+.lista-beneficios{
+    width: 20% ;
+    display: inline-block ;
+    vertical-align: top ;
+    margin: 5% ;
+}

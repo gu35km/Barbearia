@@ -1,0 +1,94 @@
+header{
+    background-color: #bbbbbb;
+    padding: 20px 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Stoke', serif;
+    font-weight: bold;
+    font-size: 19px;
+}
+nav a:hover{
+    color: aqua
+}
+nav{
+    position: absolute;
+    right: 0;
+    top: 50.5px
+}
+.logo{
+    width: 15%;
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    
+}
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+
+    border: 2px dotted black;
+    border-radius: 10px;
+
+    /*border-width: 2px;
+    border-style: dotted;
+    border-color: black (37,5,90);*/
+    }
+
+.produtos li:hover{
+    border-color: aqua;
+    cursor: pointer;
+}
+.produtos li:active{
+    border-color: red;
+}
+.produtos li:hover h2{
+    font-size: 34px;
+}
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+    }
+.produto-descricao{
+    font-size: 18px;
+
+}
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+footer{
+    text-align: center;
+    padding: 40px 0;
+    background: url(black.png)
+}
+.copyright{
+    font-size: 16px;
+    margin: 20px 0;
+    font-weight: bold;
+    color: white;
+}
+.logo-rodape{
+    width: 150px;
+}
+/*unicode table.com sites dos codigos &cody*/
